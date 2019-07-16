@@ -1,0 +1,1459 @@
+Linux version
+
+Using ReadLine
+
+Running 64Bit Version
+
+mothur v.1.39.5
+Last updated: 3/20/2017
+
+by
+Patrick D. Schloss
+
+Department of Microbiology & Immunology
+University of Michigan
+http://www.mothur.org
+
+When using, please cite:
+Schloss, P.D., et al., Introducing mothur: Open-source, platform-independent, community-supported software for describing and comparing microbial communities. Appl Environ Microbiol, 2009. 75(23):7537-41.
+
+Distributed under the GNU General Public License
+
+Type 'help()' for information on the commands that are available
+
+For questions and analysis support, please visit our forum at https://www.mothur.org/forum
+
+Type 'quit()' to exit program
+Interactive Mode
+
+
+mothur > make.contigs(file=combined_pn.files, processors=8)
+
+Using 8 processors.
+
+>>>>>	Processing file pair 251b19_S17_L001_R1_001.fastq - 251b19_S17_L001_R2_001.fastq (files 1 of 18)	<<<<<
+Making contigs...
+Done.
+
+It took 9 secs to assemble 31394 reads.
+
+
+>>>>>	Processing file pair 252b19_S73_L001_R1_001.fastq - 252b19_S73_L001_R2_001.fastq (files 2 of 18)	<<<<<
+Making contigs...
+Done.
+
+It took 15 secs to assemble 37552 reads.
+
+
+>>>>>	Processing file pair 253b19_S31_L001_R1_001.fastq - 253b19_S31_L001_R2_001.fastq (files 3 of 18)	<<<<<
+Making contigs...
+Done.
+
+It took 18 secs to assemble 48453 reads.
+
+
+>>>>>	Processing file pair 254b19_S76_L001_R1_001.fastq - 254b19_S76_L001_R2_001.fastq (files 4 of 18)	<<<<<
+Making contigs...
+Done.
+
+It took 17 secs to assemble 41818 reads.
+
+
+>>>>>	Processing file pair 2810b19_S186_L001_R1_001.fastq - 2810b19_S186_L001_R2_001.fastq (files 5 of 18)	<<<<<
+Making contigs...
+Done.
+
+It took 14 secs to assemble 38277 reads.
+
+
+>>>>>	Processing file pair 282b19_S133_L001_R1_001.fastq - 282b19_S133_L001_R2_001.fastq (files 6 of 18)	<<<<<
+Making contigs...
+Done.
+
+It took 10 secs to assemble 33323 reads.
+
+
+>>>>>	Processing file pair 283b19_S102_L001_R1_001.fastq - 283b19_S102_L001_R2_001.fastq (files 7 of 18)	<<<<<
+Making contigs...
+Done.
+
+It took 14 secs to assemble 27362 reads.
+
+
+>>>>>	Processing file pair 288b19_S158_L001_R1_001.fastq - 288b19_S158_L001_R2_001.fastq (files 8 of 18)	<<<<<
+Making contigs...
+Done.
+
+It took 17 secs to assemble 44345 reads.
+
+
+>>>>>	Processing file pair 311b19_S286_L001_R1_001.fastq - 311b19_S286_L001_R2_001.fastq (files 9 of 18)	<<<<<
+Making contigs...
+Done.
+
+It took 12 secs to assemble 30108 reads.
+
+
+>>>>>	Processing file pair 313b19_S327_L001_R1_001.fastq - 313b19_S327_L001_R2_001.fastq (files 10 of 18)	<<<<<
+Making contigs...
+Done.
+
+It took 13 secs to assemble 31225 reads.
+
+
+>>>>>	Processing file pair 314b19_S279_L001_R1_001.fastq - 314b19_S279_L001_R2_001.fastq (files 11 of 18)	<<<<<
+Making contigs...
+Done.
+
+It took 7 secs to assemble 11539 reads.
+
+
+>>>>>	Processing file pair 317b19_S320_L001_R1_001.fastq - 317b19_S320_L001_R2_001.fastq (files 12 of 18)	<<<<<
+Making contigs...
+Done.
+
+It took 16 secs to assemble 36819 reads.
+
+
+>>>>>	Processing file pair 732b19_S91_L001_R1_001.fastq - 732b19_S91_L001_R2_001.fastq (files 13 of 18)	<<<<<
+Making contigs...
+Done.
+
+It took 30 secs to assemble 102336 reads.
+
+
+>>>>>	Processing file pair 733b19_S33_L001_R1_001.fastq - 733b19_S33_L001_R2_001.fastq (files 14 of 18)	<<<<<
+Making contigs...
+Done.
+
+It took 26 secs to assemble 81355 reads.
+
+
+>>>>>	Processing file pair 737b19_S70_L001_R1_001.fastq - 737b19_S70_L001_R2_001.fastq (files 15 of 18)	<<<<<
+Making contigs...
+Done.
+
+It took 30 secs to assemble 88098 reads.
+
+
+>>>>>	Processing file pair 752b19_S24_L001_R1_001.fastq - 752b19_S24_L001_R2_001.fastq (files 16 of 18)	<<<<<
+Making contigs...
+Done.
+
+It took 13 secs to assemble 31864 reads.
+
+
+>>>>>	Processing file pair 757b19_S157_L001_R1_001.fastq - 757b19_S157_L001_R2_001.fastq (files 17 of 18)	<<<<<
+Making contigs...
+Done.
+
+It took 19 secs to assemble 64984 reads.
+
+
+>>>>>	Processing file pair 759b19_S111_L001_R1_001.fastq - 759b19_S111_L001_R2_001.fastq (files 18 of 18)	<<<<<
+Making contigs...
+Done.
+
+It took 14 secs to assemble 53524 reads.
+
+It took 297 secs to process 834376 sequences.
+
+Group count: 
+251b19	31394
+252b19	37552
+253b19	48453
+254b19	41818
+2810b19	38277
+282b19	33323
+283b19	27362
+288b19	44345
+311b19	30108
+313b19	31225
+314b19	11539
+317b19	36819
+732b19	102336
+733b19	81355
+737b19	88098
+752b19	31864
+757b19	64984
+759b19	53524
+
+Total of all groups is 834376
+
+Output File Names: 
+combined_pn.trim.contigs.fasta
+combined_pn.trim.contigs.qual
+combined_pn.contigs.report
+combined_pn.scrap.contigs.fasta
+combined_pn.scrap.contigs.qual
+combined_pn.contigs.groups
+
+[WARNING]: your sequence names contained ':'.  I changed them to '_' to avoid problems in your downstream analysis.
+
+mothur > summary.seqs(fasta=combined_pn.trim.contigs.fasta, processors=8)
+
+Using 8 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	1	247	247	0	3	1
+2.5%-tile:	1	252	252	0	3	20860
+25%-tile:	1	252	252	0	4	208595
+Median: 	1	253	253	0	4	417189
+75%-tile:	1	253	253	0	5	625783
+97.5%-tile:	1	253	253	7	5	813517
+Maximum:	1	501	501	104	250	834376
+Mean:	1	252.68	252.68	0.620745	4.20679
+# of Seqs:	834376
+
+Output File Names: 
+combined_pn.trim.contigs.summary
+
+It took 6 secs to summarize 834376 sequences.
+
+mothur > screen.seqs(fasta=combined_pn.trim.contigs.fasta, group=combined_pn.contigs.groups, maxambig=0, maxlength=275, processors=8)
+
+Using 8 processors.
+
+Output File Names: 
+combined_pn.trim.contigs.good.fasta
+combined_pn.trim.contigs.bad.accnos
+combined_pn.contigs.good.groups
+
+
+It took 32 secs to screen 834376 sequences.
+
+mothur > unique.seqs(fasta=combined_pn.trim.contigs.good.fasta)
+682431	66810
+
+Output File Names: 
+combined_pn.trim.contigs.good.names
+combined_pn.trim.contigs.good.unique.fasta
+
+
+mothur > count.seqs(name=combined_pn.trim.contigs.good.names, group=combined_pn.contigs.good.groups)
+
+Using 8 processors.
+It took 4 secs to create a table for 682431 sequences.
+
+
+Total number of sequences: 682431
+
+Output File Names: 
+combined_pn.trim.contigs.good.count_table
+
+
+mothur > count.seqs(name=combined_pn.trim.contigs.good.names, group=combined_pn.contigs.good.groups)
+
+Using 8 processors.
+It took 4 secs to create a table for 682431 sequences.
+
+
+Total number of sequences: 682431
+
+Output File Names: 
+combined_pn.trim.contigs.good.count_table
+
+
+mothur > summary.seqs(count=combined_pn.trim.contigs.good.count_table, processors=8)
+Using combined_pn.trim.contigs.good.unique.fasta as input file for the fasta parameter.
+
+Using 8 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	1	249	249	0	3	1
+2.5%-tile:	1	252	252	0	3	17061
+25%-tile:	1	252	252	0	4	170608
+Median: 	1	253	253	0	4	341216
+75%-tile:	1	253	253	0	5	511824
+97.5%-tile:	1	253	253	0	5	665371
+Maximum:	1	263	263	0	9	682431
+Mean:	1	252.64	252.64	0	4.22014
+# of unique seqs:	66810
+total # of seqs:	682431
+
+Output File Names: 
+combined_pn.trim.contigs.good.unique.summary
+
+It took 1 secs to summarize 682431 sequences.
+
+mothur > pcr.seqs(fasta=silva.seed_v132.align, start=11894, end=25319, keepdots=F, processors=8)
+
+Using 8 processors.
+
+Output File Names: 
+silva.seed_v132.pcr.align
+
+
+It took 13 secs to screen 11180 sequences.
+
+mothur > system(mv silva.seed_v132.pcr.align silva.v4.fasta)
+
+
+mothur > system(mv silva.seed_v132.pcr.align silva.v4.fasta)
+mv: cannot stat ‘silva.seed_v132.pcr.align’: No such file or directory
+
+
+mothur > summary.seqs(fasta=silva.v4.fasta, processors=8)
+
+Using 8 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	1	11550	261	0	3	1
+2.5%-tile:	1	13425	292	0	4	280
+25%-tile:	1	13425	293	0	4	2796
+Median: 	1	13425	293	0	5	5591
+75%-tile:	1	13425	294	0	6	8386
+97.5%-tile:	1	13425	461	1	6	10901
+Maximum:	3	13425	1122	5	9	11180
+Mean:	1.00081	13424.8	330.486	0.0665474	4.87165
+# of Seqs:	11180
+
+Output File Names: 
+silva.v4.summary
+
+It took 1 secs to summarize 11180 sequences.
+
+mothur > align.seqs(fasta=combined_pn.trim.contigs.good.unique.fasta, reference=silva.v4.fasta, processors=8)
+
+Using 8 processors.
+
+Reading in the silva.v4.fasta template sequences...	DONE.
+It took 6 to read  11180 sequences.
+Aligning sequences from combined_pn.trim.contigs.good.unique.fasta ...
+It took 40 secs to align 66810 sequences.
+
+
+Output File Names: 
+combined_pn.trim.contigs.good.unique.align
+combined_pn.trim.contigs.good.unique.align.report
+
+
+mothur > summary.seqs(fasta=combined_pn.trim.contigs.good.unique.align, count=combined_pn.trim.contigs.good.count_table, processors=8)
+
+Using 8 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	1248	11546	249	0	3	1
+2.5%-tile:	1968	11550	252	0	3	17061
+25%-tile:	1968	11550	252	0	4	170608
+Median: 	1968	11550	253	0	4	341216
+75%-tile:	1968	11550	253	0	5	511824
+97.5%-tile:	1968	11550	253	0	5	665371
+Maximum:	1977	13396	263	0	9	682431
+Mean:	1968	11550	252.64	0	4.22014
+# of unique seqs:	66810
+total # of seqs:	682431
+
+Output File Names: 
+combined_pn.trim.contigs.good.unique.summary
+
+It took 5 secs to summarize 682431 sequences.
+
+mothur > screen.seqs(fasta=combined_pn.trim.contigs.good.unique.align, count=combined_pn.trim.contigs.good.count_table, summary=combined_pn.trim.contigs.good.unique.summary, start=1968, end=11550, maxhomop=8, processors=8)
+
+Using 8 processors.
+
+Output File Names: 
+combined_pn.trim.contigs.good.unique.good.summary
+combined_pn.trim.contigs.good.unique.good.align
+combined_pn.trim.contigs.good.unique.bad.accnos
+combined_pn.trim.contigs.good.good.count_table
+
+
+It took 25 secs to screen 66810 sequences.
+
+mothur > summary.seqs(fasta=current, count=current, processors=8)
+Using combined_pn.trim.contigs.good.good.count_table as input file for the count parameter.
+Using combined_pn.trim.contigs.good.unique.good.align as input file for the fasta parameter.
+
+Using 8 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	1248	11550	249	0	3	1
+2.5%-tile:	1968	11550	252	0	3	17022
+25%-tile:	1968	11550	252	0	4	170211
+Median: 	1968	11550	253	0	4	340422
+75%-tile:	1968	11550	253	0	5	510633
+97.5%-tile:	1968	11550	253	0	5	663822
+Maximum:	1968	13396	263	0	8	680843
+Mean:	1968	11550	252.642	0	4.22004
+# of unique seqs:	66309
+total # of seqs:	680843
+
+Output File Names: 
+combined_pn.trim.contigs.good.unique.good.summary
+
+It took 5 secs to summarize 680843 sequences.
+
+mothur > filter.seqs(fasta=combined_pn.trim.contigs.good.unique.good.align, vertical=T, trump=., processors=8)
+
+Using 8 processors.
+Creating Filter... 
+
+
+Running Filter... 
+
+
+
+Length of filtered alignment: 434
+Number of columns removed: 12991
+Length of the original alignment: 13425
+Number of sequences used to construct filter: 66309
+
+Output File Names: 
+combined_pn.filter
+combined_pn.trim.contigs.good.unique.good.filter.fasta
+
+
+mothur > unique.seqs(fasta=combined_pn.trim.contigs.good.unique.good.filter.fasta, count=combined_pn.trim.contigs.good.good.count_table)
+66309	66287
+
+Output File Names: 
+combined_pn.trim.contigs.good.unique.good.filter.count_table
+combined_pn.trim.contigs.good.unique.good.filter.unique.fasta
+
+
+mothur > pre.cluster(fasta=combined_pn.trim.contigs.good.unique.good.filter.unique.fasta, count=combined_pn.trim.contigs.good.unique.good.filter.count_table, diffs=2, processors=8)
+
+Using 8 processors.
+
+Processing group 251b19:
+
+mothur > pre.cluster(fasta=combined_pn.trim.contigs.good.unique.good.filter.unique.fasta, count=combined_pn.trim.contigs.good.unique.good.filter.count_table, diffs=2, processors=8)
+
+Using 8 processors.
+
+Processing group 314b19:
+
+mothur > pre.cluster(fasta=combined_pn.trim.contigs.good.unique.good.filter.unique.fasta, count=combined_pn.trim.contigs.good.unique.good.filter.count_table, diffs=2, processors=8)
+
+Using 8 processors.
+
+Processing group 283b19:
+
+mothur > pre.cluster(fasta=combined_pn.trim.contigs.good.unique.good.filter.unique.fasta, count=combined_pn.trim.contigs.good.unique.good.filter.count_table, diffs=2, processors=8)
+
+Using 8 processors.
+
+Processing group 311b19:
+
+mothur > pre.cluster(fasta=combined_pn.trim.contigs.good.unique.good.filter.unique.fasta, count=combined_pn.trim.contigs.good.unique.good.filter.count_table, diffs=2, processors=8)
+
+Using 8 processors.
+
+Processing group 253b19:
+
+mothur > pre.cluster(fasta=combined_pn.trim.contigs.good.unique.good.filter.unique.fasta, count=combined_pn.trim.contigs.good.unique.good.filter.count_table, diffs=2, processors=8)
+
+Using 8 processors.
+
+Processing group 2810b19:
+
+mothur > pre.cluster(fasta=combined_pn.trim.contigs.good.unique.good.filter.unique.fasta, count=combined_pn.trim.contigs.good.unique.good.filter.count_table, diffs=2, processors=8)
+
+Using 8 processors.
+
+Processing group 752b19:
+
+mothur > pre.cluster(fasta=combined_pn.trim.contigs.good.unique.good.filter.unique.fasta, count=combined_pn.trim.contigs.good.unique.good.filter.count_table, diffs=2, processors=8)
+
+Using 8 processors.
+
+Processing group 732b19:
+2042	477	1565
+Total number of sequences before pre.cluster was 2042.
+pre.cluster removed 1565 sequences.
+
+It took 0 secs to cluster 2042 sequences.
+
+Processing group 317b19:
+3641	565	3076
+Total number of sequences before pre.cluster was 3641.
+pre.cluster removed 3076 sequences.
+
+It took 0 secs to cluster 3641 sequences.
+
+Processing group 757b19:
+3832	735	3097
+Total number of sequences before pre.cluster was 3832.
+pre.cluster removed 3097 sequences.
+
+It took 0 secs to cluster 3832 sequences.
+
+Processing group 313b19:
+4610	877	3733
+Total number of sequences before pre.cluster was 4610.
+pre.cluster removed 3733 sequences.
+
+5110	1184	3926
+Total number of sequences before pre.cluster was 5110.
+pre.cluster removed 3926 sequences.
+
+4351	1186	3165
+Total number of sequences before pre.cluster was 4351.
+pre.cluster removed 3165 sequences.
+
+It took 1 secs to cluster 4610 sequences.
+It took 1 secs to cluster 5110 sequences.
+
+Processing group 252b19:
+4005	699	3306
+Total number of sequences before pre.cluster was 4005.
+pre.cluster removed 3306 sequences.
+
+It took 1 secs to cluster 4351 sequences.
+
+Processing group 288b19:
+It took 1 secs to cluster 4005 sequences.
+5525	1297	4228
+Total number of sequences before pre.cluster was 5525.
+pre.cluster removed 4228 sequences.
+
+6013	1042	4971
+Total number of sequences before pre.cluster was 6013.
+pre.cluster removed 4971 sequences.
+
+It took 1 secs to cluster 5525 sequences.
+
+Processing group 282b19:
+It took 1 secs to cluster 6013 sequences.
+
+Processing group 759b19:
+6415	1287	5128
+Total number of sequences before pre.cluster was 6415.
+pre.cluster removed 5128 sequences.
+
+It took 1 secs to cluster 6415 sequences.
+
+Processing group 254b19:
+5272	812	4460
+Total number of sequences before pre.cluster was 5272.
+pre.cluster removed 4460 sequences.
+
+It took 0 secs to cluster 5272 sequences.
+6559	1488	5071
+Total number of sequences before pre.cluster was 6559.
+pre.cluster removed 5071 sequences.
+
+10520	1983	8537
+Total number of sequences before pre.cluster was 10520.
+pre.cluster removed 8537 sequences.
+
+It took 2 secs to cluster 10520 sequences.
+
+Processing group 733b19:
+It took 1 secs to cluster 6559 sequences.
+6102	1538	4564
+Total number of sequences before pre.cluster was 6102.
+pre.cluster removed 4564 sequences.
+
+It took 1 secs to cluster 6102 sequences.
+5541	1442	4099
+Total number of sequences before pre.cluster was 5541.
+pre.cluster removed 4099 sequences.
+
+6138	672	5466
+Total number of sequences before pre.cluster was 6138.
+pre.cluster removed 5466 sequences.
+
+It took 0 secs to cluster 6138 sequences.
+
+Processing group 737b19:
+It took 1 secs to cluster 5541 sequences.
+6351	1472	4879
+Total number of sequences before pre.cluster was 6351.
+pre.cluster removed 4879 sequences.
+
+It took 2 secs to cluster 6351 sequences.
+8651	1671	6980
+Total number of sequences before pre.cluster was 8651.
+pre.cluster removed 6980 sequences.
+
+It took 2 secs to cluster 8651 sequences.
+It took 9 secs to run pre.cluster.
+
+Output File Names: 
+combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.fasta
+combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.count_table
+combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.251b19.map
+combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.252b19.map
+combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.253b19.map
+combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.254b19.map
+combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.2810b19.map
+combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.282b19.map
+combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.283b19.map
+combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.288b19.map
+combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.311b19.map
+combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.313b19.map
+combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.314b19.map
+combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.317b19.map
+combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.732b19.map
+combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.733b19.map
+combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.737b19.map
+combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.752b19.map
+combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.757b19.map
+combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.759b19.map
+
+
+mothur > chimera.uchime(fasta=combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.fasta, count=combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.count_table, dereplicate=t, processors=8)
+
+Using 8 processors.
+/sw/med/centos7/mothur/1.39.5/mothuruchime file does not exist. Checking path... 
+Found uchime in your path, using /sw/med/centos7/mothur/1.39.5/uchime
+
+uchime by Robert C. Edgar
+http://drive5.com/uchime
+This code is donated to the public domain.
+
+Checking sequences from combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.fasta ...
+
+It took 10 secs to check 477 sequences from group 314b19.
+
+It took 17 secs to check 565 sequences from group 752b19.
+
+It took 18 secs to check 735 sequences from group 311b19.
+
+It took 30 secs to check 1186 sequences from group 283b19.
+
+It took 25 secs to check 877 sequences from group 317b19.
+
+It took 19 secs to check 699 sequences from group 313b19.
+
+It took 40 secs to check 1297 sequences from group 2810b19.
+
+It took 41 secs to check 1287 sequences from group 253b19.
+
+It took 42 secs to check 1184 sequences from group 251b19.
+
+It took 34 secs to check 1042 sequences from group 757b19.
+
+It took 20 secs to check 812 sequences from group 759b19.
+
+It took 49 secs to check 1488 sequences from group 288b19.
+
+It took 46 secs to check 1442 sequences from group 282b19.
+
+It took 89 secs to check 1983 sequences from group 732b19.
+
+It took 56 secs to check 1538 sequences from group 252b19.
+
+It took 58 secs to check 1472 sequences from group 254b19.
+
+It took 22 secs to check 672 sequences from group 733b19.
+
+It took 74 secs to check 1671 sequences from group 737b19.
+
+Output File Names: 
+combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.denovo.uchime.pick.count_table
+combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.denovo.uchime.chimeras
+combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.denovo.uchime.accnos
+
+
+mothur > remove.seqs(fasta=combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.fasta, accnos=combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.denovo.uchime.accnos)
+[WARNING]: This command can take a namefile and you did not provide one. The current namefile is combined_pn.trim.contigs.good.names which seems to match combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.fasta.
+Removed 8271 sequences from your fasta file.
+
+Output File Names: 
+combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta
+
+
+mothur > summary.seqs(fasta=current, count=current, processors=8)
+Using combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.denovo.uchime.pick.count_table as input file for the count parameter.
+Using combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta as input file for the fasta parameter.
+
+Using 8 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	1	434	245	0	3	1
+2.5%-tile:	1	434	252	0	3	16132
+25%-tile:	1	434	252	0	4	161313
+Median: 	1	434	253	0	4	322626
+75%-tile:	1	434	253	0	5	483938
+97.5%-tile:	1	434	253	0	5	629119
+Maximum:	1	434	256	0	8	645250
+Mean:	1	434	252.65	0	4.21169
+# of unique seqs:	7610
+total # of seqs:	645250
+
+Output File Names: 
+combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.summary
+
+It took 0 secs to summarize 645250 sequences.
+
+mothur > classify.seqs(fasta=combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta, count=combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.denovo.uchime.pick.count_table, reference=trainset16_022016.rdp.fasta, taxonomy=trainset16_022016.rdp.tax, cutoff=80)
+
+Using 8 processors.
+Reading template taxonomy...     DONE.
+Reading template probabilities...     DONE.
+It took 11 seconds get probabilities. 
+Classifying sequences from combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta ...
+
+It took 24 secs to classify 7610 sequences.
+
+
+It took 0 secs to create the summary file for 7610 sequences.
+
+
+Output File Names: 
+combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.rdp.wang.taxonomy
+combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.rdp.wang.tax.summary
+
+
+mothur > remove.lineage(fasta=combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta, count=combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.denovo.uchime.pick.count_table, taxonomy=combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.rdp.wang.taxonomy, taxon=Chloroplast-Mitochondria-unknown-Archaea-Eukaryota)
+
+[NOTE]: The count file should contain only unique names, so mothur assumes your fasta, list and taxonomy files also contain only uniques.
+
+
+Output File Names: 
+combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.rdp.wang.pick.taxonomy
+combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.fasta
+combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.denovo.uchime.pick.pick.count_table
+
+
+mothur > count.seqs(name=current, group=current)
+Using combined_pn.contigs.good.groups as input file for the group parameter.
+Using combined_pn.trim.contigs.good.names as input file for the name parameter.
+
+Using 8 processors.
+It took 5 secs to create a table for 682431 sequences.
+
+
+Total number of sequences: 682431
+
+Output File Names: 
+combined_pn.trim.contigs.good.count_table
+
+
+mothur > count.groups(count=combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.denovo.uchime.pick.pick.count_table)
+251b19 contains 23954.
+252b19 contains 28535.
+253b19 contains 38588.
+254b19 contains 31269.
+2810b19 contains 28545.
+282b19 contains 26705.
+283b19 contains 21134.
+288b19 contains 35308.
+311b19 contains 23379.
+313b19 contains 24543.
+314b19 contains 9038.
+317b19 contains 29327.
+732b19 contains 78096.
+733b19 contains 66842.
+737b19 contains 67021.
+752b19 contains 23748.
+757b19 contains 48279.
+759b19 contains 40935.
+
+Total seqs: 645246.
+
+Output File Names: 
+combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.denovo.uchime.pick.pick.count.summary
+
+
+mothur > cluster.split(fasta=combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.fasta, count=combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.denovo.uchime.pick.pick.count_table, taxonomy=combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.rdp.wang.pick.taxonomy, splitmethod=classify, taxlevel=2, cutoff=0.03, processors=1)
+
+Using 1 processors.
+[NOTE]: Default clustering method has changed to opti. To use average neighbor, set method=average.
+Splitting the file...
+/******************************************/
+Running command: dist.seqs(fasta=combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.fasta.0.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+
+Output File Names: 
+combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.fasta.0.dist
+
+It took 26 seconds to calculate the distances for 2737 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.fasta.1.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+
+Output File Names: 
+combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.fasta.1.dist
+
+It took 1 seconds to calculate the distances for 204 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.fasta.2.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+
+Output File Names: 
+combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.fasta.2.dist
+
+It took 67 seconds to calculate the distances for 4343 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.fasta.3.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+
+Output File Names: 
+combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.fasta.3.dist
+
+It took 0 seconds to calculate the distances for 12 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.fasta.4.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+
+Output File Names: 
+combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.fasta.4.dist
+
+It took 0 seconds to calculate the distances for 116 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.fasta.5.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+
+Output File Names: 
+combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.fasta.5.dist
+
+It took 0 seconds to calculate the distances for 97 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.fasta.6.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+
+Output File Names: 
+combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.fasta.6.dist
+
+It took 0 seconds to calculate the distances for 83 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.fasta.7.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+
+Output File Names: 
+combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.fasta.7.dist
+
+It took 0 seconds to calculate the distances for 2 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.fasta.8.temp, processors=1, cutoff=0.03)
+
+Using 1 processors.
+/******************************************/
+
+Output File Names: 
+combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.fasta.8.dist
+
+It took 0 seconds to calculate the distances for 14 sequences.
+It took 106 seconds to split the distance file.
+
+Clustering combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.fasta.2.dist
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+189844	9209648	13240	15921	0.922625	0.998564	0.934805	0.998274	0.0651947	0.996907	0.927116	0.928675	
+
+
+Clustering combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.fasta.0.dist
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+49159	3685928	2616	6513	0.883011	0.999291	0.949474	0.998236	0.0505263	0.997562	0.914421	0.915037	
+
+
+Clustering combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.fasta.1.dist
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+9858	5295	133	5420	0.645242	0.975497	0.986688	0.494167	0.013312	0.731817	0.546338	0.780245	
+
+
+Clustering combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.fasta.4.dist
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+577	6022	31	40	0.93517	0.994879	0.949013	0.993402	0.0509868	0.989355	0.936211	0.942041	
+
+
+Clustering combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.fasta.5.dist
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+450	4158	27	21	0.955414	0.993548	0.943396	0.994975	0.0566038	0.989691	0.943652	0.949367	
+
+
+Clustering combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.fasta.6.dist
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+270	3081	13	39	0.873786	0.995798	0.954064	0.9875	0.0459364	0.984719	0.904859	0.912162	
+
+
+Clustering combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.fasta.8.dist
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+26	26	1	38	0.40625	0.962963	0.962963	0.40625	0.037037	0.571429	0.369213	0.571429	
+
+
+Clustering combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.fasta.3.dist
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+29	12	0	25	0.537037	1	1	0.324324	0	0.621212	0.417342	0.698795	
+
+
+Clustering combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.fasta.7.dist
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+0	0	0	1	0	0	0	0	0	0	0	0	
+
+It took 2 seconds to cluster
+Merging the clustered files...
+It took 0 seconds to merge.
+/******************************************/
+Running command: sens.spec(cutoff=0.03, list=combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.opti_mcc.unique_list.list, column=combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.dist, count=combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.denovo.uchime.pick.pick.count_table)
+
+NOTE: sens.spec assumes that only unique sequences were used to generate the distance matrix.
+
+It took 1 to run sens.spec.
+
+Output File Names: 
+combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.opti_mcc.unique_list.sensspec
+
+/******************************************/
+Done.
+
+
+label	cutoff	tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+0.03	0.03	250213	28642736	16061	28018	0.8993	0.9994	0.9397	0.999	0.06032	0.9985	0.9185	0.919
+
+Output File Names: 
+combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.dist
+combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.opti_mcc.unique_list.list
+combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.opti_mcc.unique_list.sensspec
+
+
+mothur > system(mv combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.opti_mcc.unique_list.list combined_pn.final.list)
+
+
+mothur > system(mv combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.fasta combined_pn.final.fasta)
+
+
+mothur > system(mv combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.rdp.wang.pick.taxonomy combined_pn.final.taxonomy)
+
+
+mothur > system(mv combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.denovo.uchime.pick.pick.count_table combined_pn.final.count_table)
+
+
+mothur > system(mkdir single_files)
+
+
+mothur > system(mv *.map single_files)
+
+
+mothur > count.groups(count=combined_pn.final.count_table)
+251b19 contains 23954.
+252b19 contains 28535.
+253b19 contains 38588.
+254b19 contains 31269.
+2810b19 contains 28545.
+282b19 contains 26705.
+283b19 contains 21134.
+288b19 contains 35308.
+311b19 contains 23379.
+313b19 contains 24543.
+314b19 contains 9038.
+317b19 contains 29327.
+732b19 contains 78096.
+733b19 contains 66842.
+737b19 contains 67021.
+752b19 contains 23748.
+757b19 contains 48279.
+759b19 contains 40935.
+
+Total seqs: 645246.
+
+Output File Names: 
+combined_pn.final.count.summary
+
+
+mothur > make.shared(list=combined_pn.final.list, count=combined_pn.final.count_table, label=0.03)
+0.03
+
+Output File Names: 
+combined_pn.final.shared
+
+
+mothur > classify.otu(list=combined_pn.final.list, count=combined_pn.final.count_table, taxonomy=combined_pn.final.taxonomy, label=0.03)
+0.03	1245
+
+Output File Names: 
+combined_pn.final.0.03.cons.taxonomy
+combined_pn.final.0.03.cons.tax.summary
+
+
+mothur > dist.shared(shared=combined_pn.final.0.03.pick.shared, calc=thetayc-jclass-jest, subsample=F, iters=1000)
+Unable to open combined_pn.final.0.03.pick.shared. Trying default /sw/med/centos7/mothur/1.39.5/mothur/combined_pn.final.0.03.pick.shared
+Unable to open /sw/med/centos7/mothur/1.39.5/mothur/combined_pn.final.0.03.pick.shared. Trying mothur's location /sw/med/centos7/mothur/1.39.5/mothurcombined_pn.final.0.03.pick.shared
+Unable to open /sw/med/centos7/mothur/1.39.5/mothurcombined_pn.final.0.03.pick.shared
+
+Using 1 processors.
+[ERROR]: did not complete dist.shared.
+
+mothur > remove.groups(shared=combined_pn.final.shared, groups=D_Blank10-D_Blank11-D_Blank12-D_Blank13-D_Blank14-D_Blank1-D_Blank2-D_Blank3-D_Blank4-D_Blank5-D_Blank6-D_Blank7-D_Blank8-D_Blank9-D_ZmockD_031717-D_waterD_031717-EMPTY10-EMPTY11-EMPTY12-EMPTY13-EMPTY1-EMPTY2-EMPTY3-EMPTY4-EMPTY5-EMPTY6-EMPTY7-EMPTY8-EMPTY9-PCRwater_a-PCRwater_b-zymomock_a-zymomock_b)
+D_Blank1 is not a valid group, and will be disregarded.
+D_Blank10 is not a valid group, and will be disregarded.
+D_Blank11 is not a valid group, and will be disregarded.
+D_Blank12 is not a valid group, and will be disregarded.
+D_Blank13 is not a valid group, and will be disregarded.
+D_Blank14 is not a valid group, and will be disregarded.
+D_Blank2 is not a valid group, and will be disregarded.
+D_Blank3 is not a valid group, and will be disregarded.
+D_Blank4 is not a valid group, and will be disregarded.
+D_Blank5 is not a valid group, and will be disregarded.
+D_Blank6 is not a valid group, and will be disregarded.
+D_Blank7 is not a valid group, and will be disregarded.
+D_Blank8 is not a valid group, and will be disregarded.
+D_Blank9 is not a valid group, and will be disregarded.
+D_ZmockD_031717 is not a valid group, and will be disregarded.
+D_waterD_031717 is not a valid group, and will be disregarded.
+EMPTY1 is not a valid group, and will be disregarded.
+EMPTY10 is not a valid group, and will be disregarded.
+EMPTY11 is not a valid group, and will be disregarded.
+EMPTY12 is not a valid group, and will be disregarded.
+EMPTY13 is not a valid group, and will be disregarded.
+EMPTY2 is not a valid group, and will be disregarded.
+EMPTY3 is not a valid group, and will be disregarded.
+EMPTY4 is not a valid group, and will be disregarded.
+EMPTY5 is not a valid group, and will be disregarded.
+EMPTY6 is not a valid group, and will be disregarded.
+EMPTY7 is not a valid group, and will be disregarded.
+EMPTY8 is not a valid group, and will be disregarded.
+EMPTY9 is not a valid group, and will be disregarded.
+PCRwater_a is not a valid group, and will be disregarded.
+PCRwater_b is not a valid group, and will be disregarded.
+zymomock_a is not a valid group, and will be disregarded.
+zymomock_b is not a valid group, and will be disregarded.
+You provided no valid groups. I will run the command using all the groups in your file.
+Removed groups: D_Blank1, D_Blank10, D_Blank11, D_Blank12, D_Blank13, D_Blank14, D_Blank2, D_Blank3, D_Blank4, D_Blank5, D_Blank6, D_Blank7, D_Blank8, D_Blank9, D_ZmockD_031717, D_waterD_031717, EMPTY1, EMPTY10, EMPTY11, EMPTY12, EMPTY13, EMPTY2, EMPTY3, EMPTY4, EMPTY5, EMPTY6, EMPTY7, EMPTY8, EMPTY9, PCRwater_a, PCRwater_b, zymomock_a, zymomock_b from your shared file.
+
+Output File names: 
+combined_pn.final.0.03.pick.shared
+
+
+mothur > dist.shared(shared=combined_pn.final.0.03.pick.shared, calc=thetayc-jclass-jest, subsample=F, iters=1000)
+
+Using 1 processors.
+0.03
+
+Output File Names: 
+combined_pn.final.0.03.pick.thetayc.0.03.lt.dist
+combined_pn.final.0.03.pick.jclass.0.03.lt.dist
+combined_pn.final.0.03.pick.jest.0.03.lt.dist
+
+
+mothur > pcoa(phylip=combined_pn.final.0.03.pick.thetayc.0.03.lt.dist)
+
+Processing...
+Rsq 1 axis: 0.56686
+Rsq 2 axis: 0.822222
+Rsq 3 axis: 0.842599
+
+Output File Names: 
+combined_pn.final.0.03.pick.thetayc.0.03.lt.pcoa.axes
+combined_pn.final.0.03.pick.thetayc.0.03.lt.pcoa.loadings
+
+
+mothur > corr.axes(axes=combined_pn.final.0.03.pick.thetayc.0.03.lt.pcoa.axes, shared=combined_pn.final.0.03.pick.0.03.filter.shared, method=spearman, numaxes=3)
+Unable to open combined_pn.final.0.03.pick.0.03.filter.shared. Trying default /sw/med/centos7/mothur/1.39.5/mothur/combined_pn.final.0.03.pick.0.03.filter.shared
+Unable to open /sw/med/centos7/mothur/1.39.5/mothur/combined_pn.final.0.03.pick.0.03.filter.shared. Trying mothur's location /sw/med/centos7/mothur/1.39.5/mothurcombined_pn.final.0.03.pick.0.03.filter.shared
+Unable to open /sw/med/centos7/mothur/1.39.5/mothurcombined_pn.final.0.03.pick.0.03.filter.shared
+You did not provide a label, I will use the first label in your inputfile.
+[ERROR]: did not complete corr.axes.
+
+mothur > nmds(phylip=combined_pn.final.0.03.pick.thetayc.0.03.lt.dist, mindim=3, maxdim=3)
+Processing Dimension: 3
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+Number of dimensions:	3
+Lowest stress :	0.113308
+R-squared for configuration:	0.909416
+
+Output File Names: 
+combined_pn.final.0.03.pick.thetayc.0.03.lt.nmds.iters
+combined_pn.final.0.03.pick.thetayc.0.03.lt.nmds.stress
+combined_pn.final.0.03.pick.thetayc.0.03.lt.nmds.axes
+
+
+mothur > summary.shared(shared=combined_pn.final.0.03.pick.shared, calc=sharedsobs-braycurtis-spearman-thetayc-jsd-sharednseqs)
+
+Using 1 processors.
+0.03
+
+Output File Names: 
+combined_pn.final.0.03.pick.summary
+
+
+mothur > summary.single(shared=combined_pn.final.0.03.pick.shared, calc=simpsoneven-simpson-invsimpson-shannon-npshannon-sobs-chao-nseqs)
+
+Processing group 251b19
+
+0.03
+
+Processing group 252b19
+
+0.03
+
+Processing group 253b19
+
+0.03
+
+Processing group 254b19
+
+0.03
+
+Processing group 2810b19
+
+0.03
+
+Processing group 282b19
+
+0.03
+
+Processing group 283b19
+
+0.03
+
+Processing group 288b19
+
+0.03
+
+Processing group 311b19
+
+0.03
+
+Processing group 313b19
+
+0.03
+
+Processing group 314b19
+
+0.03
+
+Processing group 317b19
+
+0.03
+
+Processing group 732b19
+
+0.03
+
+Processing group 733b19
+
+0.03
+
+Processing group 737b19
+
+0.03
+
+Processing group 752b19
+
+0.03
+
+Processing group 757b19
+
+0.03
+
+Processing group 759b19
+
+0.03
+
+Output File Names: 
+combined_pn.final.0.03.pick.groups.summary
+
+
+mothur > summary.single(shared=combined_pn.final.shared, calc=simpsoneven-simpson-invsimpson-shannon-npshannon-sobs-chao-nseqs)
+
+Processing group 251b19
+
+0.03
+
+Processing group 252b19
+
+0.03
+
+Processing group 253b19
+
+0.03
+
+Processing group 254b19
+
+0.03
+
+Processing group 2810b19
+
+0.03
+
+Processing group 282b19
+
+0.03
+
+Processing group 283b19
+
+0.03
+
+Processing group 288b19
+
+0.03
+
+Processing group 311b19
+
+0.03
+
+Processing group 313b19
+
+0.03
+
+Processing group 314b19
+
+0.03
+
+Processing group 317b19
+
+0.03
+
+Processing group 732b19
+
+0.03
+
+Processing group 733b19
+
+0.03
+
+Processing group 737b19
+
+0.03
+
+Processing group 752b19
+
+0.03
+
+Processing group 757b19
+
+0.03
+
+Processing group 759b19
+
+0.03
+
+Output File Names: 
+combined_pn.final.groups.summary
+
+
+mothur > system(mv *.rabund single_files)
+
+
+mothur > filter.shared(shared=combined_pn.final.0.03.pick.shared, minpercentsamples=5, makerare=T, minpercent=0.0001) 
+0.03
+
+Removed 1010 OTUs.
+
+Output File Names: 
+combined_pn.final.0.03.pick.0.03.filter.shared
+
+
+mothur > nmds(phylip=combined_pn.final.0.03.pick.thetayc.0.03.lt.dist, mindim=3, maxdim=3)
+Processing Dimension: 3
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+Number of dimensions:	3
+Lowest stress :	0.113308
+R-squared for configuration:	0.909416
+
+Output File Names: 
+combined_pn.final.0.03.pick.thetayc.0.03.lt.nmds.iters
+combined_pn.final.0.03.pick.thetayc.0.03.lt.nmds.stress
+combined_pn.final.0.03.pick.thetayc.0.03.lt.nmds.axes
+
+
+mothur > summary.shared(shared=combined_pn.final.0.03.pick.shared, calc=sharedsobs-braycurtis-spearman-thetayc-jsd-sharednseqs)
+
+Using 1 processors.
+0.03
+
+Output File Names: 
+combined_pn.final.0.03.pick.summary
+
+
+mothur > corr.axes(axes=combined_pn.final.0.03.pick.thetayc.0.03.lt.pcoa.axes, shared=combined_pn.final.0.03.pick.0.03.filter.shared, method=spearman, numaxes=3)
+You did not provide a label, I will use the first label in your inputfile.
+
+Output File Names: 
+combined_pn.final.0.03.pick.0.03.filter.spearman.corr.axes
+
+
+mothur > get.groups(shared=combined_pn.final.0.03.pick.shared, groups=251b19_S17-252b19_S73-253b19_S31-254b19_S76-2810b19_S186-282b19_S133-283b19_S102-288b19_S158-311b19_S286-313b19_S327-314b19_S279-317b19_S320-732b19_S91-733b19_S33-737b19_S70-752b19_S24-757b19_S157-759b19_S111) #this makes a shared file with just the samples listed, in this case the LD samples that sequenced ok
+251b19_S17 is not a valid group, and will be disregarded.
+252b19_S73 is not a valid group, and will be disregarded.
+253b19_S31 is not a valid group, and will be disregarded.
+254b19_S76 is not a valid group, and will be disregarded.
+2810b19_S186 is not a valid group, and will be disregarded.
+282b19_S133 is not a valid group, and will be disregarded.
+283b19_S102 is not a valid group, and will be disregarded.
+288b19_S158 is not a valid group, and will be disregarded.
+311b19_S286 is not a valid group, and will be disregarded.
+313b19_S327 is not a valid group, and will be disregarded.
+314b19_S279 is not a valid group, and will be disregarded.
+317b19_S320 is not a valid group, and will be disregarded.
+732b19_S91 is not a valid group, and will be disregarded.
+733b19_S33 is not a valid group, and will be disregarded.
+737b19_S70 is not a valid group, and will be disregarded.
+752b19_S24 is not a valid group, and will be disregarded.
+757b19_S157 is not a valid group, and will be disregarded.
+759b19_S111 is not a valid group, and will be disregarded.
+You provided no valid groups. I will run the command using all the groups in your file.
+Selected groups: 251b19_S17, 252b19_S73, 253b19_S31, 254b19_S76, 2810b19_S186, 282b19_S133, 283b19_S102, 288b19_S158, 311b19_S286, 313b19_S327, 314b19_S279, 317b19_S320, 732b19_S91, 733b19_S33, 737b19_S70, 752b19_S24, 757b19_S157, 759b19_S111 from your shared file.
+
+Output File names: 
+combined_pn.final.0.03.pick.0.03.pick.shared
+
+
+mothur > system(mv combined_pn.final.0.03.pick.0.03.pick.shared combined_pn.final.p19.shared) #renames the file so it makes sense and you don’t overwrite the files for your different subsets
+
+
+mothur > dist.shared(shared=combined_pn.final.p19.shared, calc=thetayc)
+
+Using 1 processors.
+0.03
+
+Output File Names: 
+combined_pn.final.p19.thetayc.0.03.lt.dist
+
+
+mothur > pcoa(phylip=combined_pn.final.p19.thetayc.0.03.lt.dist)
+
+Processing...
+Rsq 1 axis: 0.56686
+Rsq 2 axis: 0.822222
+Rsq 3 axis: 0.842599
+
+Output File Names: 
+combined_pn.final.p19.thetayc.0.03.lt.pcoa.axes
+combined_pn.final.p19.thetayc.0.03.lt.pcoa.loadings
+
+
+mothur > corr.axes(shared=combined_pn.final.p19.shared, axes=combined_pn.final.p19.thetayc.0.03.lt.pcoa.axes, numaxes=2)
+You did not provide a label, I will use the first label in your inputfile.
+
+Output File Names: 
+combined_pn.final.p19.pearson.corr.axes
+
+
+mothur > amova(phylip=combined_pn.final.p19.thetayc.0.03.lt.dist, design=combined_pn_P19.design.txt)
+CF-CM-MF-MM	Among	Within	Total
+SS	2.79872	2.63076	5.42948
+df	3	14	17
+MS	0.932907	0.187912
+
+Fs:	4.96461
+p-value: <0.001*
+
+CF-CM	Among	Within	Total
+SS	0.430783	1.95475	2.38554
+df	1	8	9
+MS	0.430783	0.244344
+
+Fs:	1.76302
+p-value: 0.146
+
+CF-MF	Among	Within	Total
+SS	1.00711	0.258608	1.26572
+df	1	4	5
+MS	1.00711	0.0646519
+
+Fs:	15.5774
+p-value: 0.06
+
+CF-MM	Among	Within	Total
+SS	0.983353	0.495776	1.47913
+df	1	4	5
+MS	0.983353	0.123944
+
+Fs:	7.93386
+p-value: 0.061
+
+CM-MF	Among	Within	Total
+SS	1.31115	2.13499	3.44614
+df	1	10	11
+MS	1.31115	0.213499
+
+Fs:	6.14126
+p-value: 0.002*
+
+CM-MM	Among	Within	Total
+SS	1.29232	2.37215	3.66448
+df	1	10	11
+MS	1.29232	0.237215
+
+Fs:	5.44789
+p-value: 0.005*
+
+MF-MM	Among	Within	Total
+SS	0.360588	0.676009	1.0366
+df	1	6	7
+MS	0.360588	0.112668
+
+Fs:	3.20044
+p-value: 0.031
+
+Experiment-wise error rate: 0.05
+Pair-wise error rate (Bonferroni): 0.00833333
+If you have borderline P-values, you should try increasing the number of iterations
+
+Output File Names: 
+combined_pn.final.p19.thetayc.0.03.lt.amova
+
+
+mothur > lefse(shared=combined_pn.final.p19.shared, design=combined_pn_P19.design.txt) #note, this is a 2 way comparison
+
+You did not provide a class, using value0.
+
+0.03
+
+Number of significantly discriminative features: 244 ( 244 ) before internal wilcoxon.
+Number of discriminative features with abs LDA score > 2 : 244.
+
+Output File Names: 
+combined_pn.final.p19.0.03.lefse_summary
+
+
+mothur > quit
+
+
+************************************************************
+************************************************************
+************************************************************
+Detected 2 [ERROR] messages, please review.
+************************************************************
+************************************************************
+************************************************************
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<^>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<^>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<^>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Detected 2 [WARNING] messages, please review.
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<^>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<^>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<^>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

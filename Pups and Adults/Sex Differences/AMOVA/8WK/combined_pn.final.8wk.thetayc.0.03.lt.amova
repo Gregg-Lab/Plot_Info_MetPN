@@ -1,0 +1,56 @@
+CF-CM-MF-MM	Among	Within	Total
+SS	2.63038	3.42992	6.06031
+df	3	17	20
+MS	0.876795	0.20176
+
+Fs:	4.34573
+p-value: <0.001*
+
+CF-CM	Among	Within	Total
+SS	0.355707	1.66826	2.02397
+df	1	8	9
+MS	0.355707	0.208532
+
+Fs:	1.70576
+p-value: 0.169
+
+CF-MF	Among	Within	Total
+SS	0.608598	0.573312	1.18191
+df	1	6	7
+MS	0.608598	0.095552
+
+Fs:	6.36929
+p-value: 0.014
+
+CF-MM	Among	Within	Total
+SS	1.00141	2.07782	3.07923
+df	1	9	10
+MS	1.00141	0.230869
+
+Fs:	4.33756
+p-value: 0.012
+
+CM-MF	Among	Within	Total
+SS	1.13431	1.3521	2.48641
+df	1	8	9
+MS	1.13431	0.169012
+
+Fs:	6.71144
+p-value: 0.007*
+
+CM-MM	Among	Within	Total
+SS	0.713215	2.85661	3.56982
+df	1	11	12
+MS	0.713215	0.259692
+
+Fs:	2.74639
+p-value: 0.092
+
+MF-MM	Among	Within	Total
+SS	1.38016	1.76166	3.14182
+df	1	9	10
+MS	1.38016	0.19574
+
+Fs:	7.05098
+p-value: 0.008*
+

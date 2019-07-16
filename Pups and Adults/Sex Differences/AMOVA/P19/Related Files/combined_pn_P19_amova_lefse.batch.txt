@@ -1,0 +1,12 @@
+##combined_pn Batch AMOVA and LEFse
+##testing sex differences
+# 5/30/2019 by Zach Carlson
+
+get.groups(shared=combined_pn.final.0.03.pick.shared, groups=251b19_S17-252b19_S73-253b19_S31-254b19_S76-2810b19_S186-282b19_S133-283b19_S102-288b19_S158-311b19_S286-313b19_S327-314b19_S279-317b19_S320-732b19_S91-733b19_S33-737b19_S70-752b19_S24-757b19_S157-759b19_S111) #this makes a shared file with just the samples listed, in this case the LD samples that sequenced ok
+system(mv combined_pn.final.0.03.pick.0.03.pick.shared combined_pn.final.p19.shared) #renames the file so it makes sense and you don’t overwrite the files for your different subsets
+dist.shared(shared=combined_pn.final.p19.shared, calc=thetayc)
+pcoa(phylip=combined_pn.final.p19.thetayc.0.03.lt.dist)
+corr.axes(shared=combined_pn.final.p19.shared, axes=combined_pn.final.p19.thetayc.0.03.lt.pcoa.axes, numaxes=2)
+amova(phylip=combined_pn.final.p19.thetayc.0.03.lt.dist, design=combined_pn_P19.design.txt)
+lefse(shared=combined_pn.final.p19.shared, design=combined_pn_P19.design.txt) #note, this is a 2 way comparison
+

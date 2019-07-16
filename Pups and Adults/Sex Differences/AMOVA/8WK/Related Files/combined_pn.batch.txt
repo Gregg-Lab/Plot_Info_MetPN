@@ -1,0 +1,72 @@
+##combined_pn Batch for Sex Difference Test
+# 06/03/2019 by Zach Carlson
+
+#Before starting this batch in mothur, unzipped fastq files: gunzip *.fastq.gz 
+
+#On flux, in mothur:
+#make.file(inputdir=files, type=fastq, prefix=combined) 
+
+make.contigs(file=combined_pn.files, processors=8)
+summary.seqs(fasta=combined_pn.trim.contigs.fasta, processors=8)
+screen.seqs(fasta=combined_pn.trim.contigs.fasta, group=combined_pn.contigs.groups, maxambig=0, maxlength=275, processors=8)
+unique.seqs(fasta=combined_pn.trim.contigs.good.fasta)
+count.seqs(name=combined_pn.trim.contigs.good.names, group=combined_pn.contigs.good.groups)
+summary.seqs(count=combined_pn.trim.contigs.good.count_table, processors=8)
+pcr.seqs(fasta=silva.seed_v132.align, start=11894, end=25319, keepdots=F, processors=8)
+system(mv silva.seed_v132.pcr.align silva.v4.fasta)
+summary.seqs(fasta=silva.v4.fasta, processors=8)
+align.seqs(fasta=combined_pn.trim.contigs.good.unique.fasta, reference=silva.v4.fasta, processors=8)
+summary.seqs(fasta=combined_pn.trim.contigs.good.unique.align, count=combined_pn.trim.contigs.good.count_table, processors=8)
+screen.seqs(fasta=combined_pn.trim.contigs.good.unique.align, count=combined_pn.trim.contigs.good.count_table, summary=combined_pn.trim.contigs.good.unique.summary, start=1968, end=11550, maxhomop=8, processors=8)
+summary.seqs(fasta=current, count=current, processors=8)
+filter.seqs(fasta=combined_pn.trim.contigs.good.unique.good.align, vertical=T, trump=., processors=8)
+unique.seqs(fasta=combined_pn.trim.contigs.good.unique.good.filter.fasta, count=combined_pn.trim.contigs.good.good.count_table)
+pre.cluster(fasta=combined_pn.trim.contigs.good.unique.good.filter.unique.fasta, count=combined_pn.trim.contigs.good.unique.good.filter.count_table, diffs=2, processors=8)
+chimera.uchime(fasta=combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.fasta, count=combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.count_table, dereplicate=t, processors=8)
+remove.seqs(fasta=combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.fasta, accnos=combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.denovo.uchime.accnos)
+summary.seqs(fasta=current, count=current, processors=8)
+classify.seqs(fasta=combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta, count=combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.denovo.uchime.pick.count_table, reference=trainset16_022016.rdp.fasta, taxonomy=trainset16_022016.rdp.tax, cutoff=80)
+remove.lineage(fasta=combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta, count=combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.denovo.uchime.pick.count_table, taxonomy=combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.rdp.wang.taxonomy, taxon=Chloroplast-Mitochondria-unknown-Archaea-Eukaryota)
+count.seqs(name=current, group=current)
+count.groups(count=combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.denovo.uchime.pick.pick.count_table)
+
+#remove.groups(count=current, fasta=current, taxonomy=current, groups=)
+cluster.split(fasta=combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.fasta, count=combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.denovo.uchime.pick.pick.count_table, taxonomy=combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.rdp.wang.pick.taxonomy, splitmethod=classify, taxlevel=2, cutoff=0.03, processors=1)
+system(mv combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.opti_mcc.unique_list.list combined_pn.final.list)
+system(mv combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.fasta combined_pn.final.fasta)
+system(mv combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.pick.rdp.wang.pick.taxonomy combined_pn.final.taxonomy)
+system(mv combined_pn.trim.contigs.good.unique.good.filter.unique.precluster.denovo.uchime.pick.pick.count_table combined_pn.final.count_table)
+system(mkdir single_files)
+system(mv *.map single_files)
+
+count.groups(count=combined_pn.final.count_table)
+make.shared(list=combined_pn.final.list, count=combined_pn.final.count_table, label=0.03)
+classify.otu(list=combined_pn.final.list, count=combined_pn.final.count_table, taxonomy=combined_pn.final.taxonomy, label=0.03)
+#remove.groups(count=combined_pn.final.count_table, fasta=combined_pn.final.fasta, taxonomy=combined_pn.final.taxonomy, list=combined_pn.final.list, shared=combined_pn.final.shared, groups=)
+
+#no subsampling results (will include most controls):
+remove.groups(shared=combined_pn.final.shared, groups=D_Blank10-D_Blank11-D_Blank12-D_Blank13-D_Blank14-D_Blank1-D_Blank2-D_Blank3-D_Blank4-D_Blank5-D_Blank6-D_Blank7-D_Blank8-D_Blank9-D_ZmockD_031717-D_waterD_031717-EMPTY10-EMPTY11-EMPTY12-EMPTY13-EMPTY1-EMPTY2-EMPTY3-EMPTY4-EMPTY5-EMPTY6-EMPTY7-EMPTY8-EMPTY9-PCRwater_a-PCRwater_b-zymomock_a-zymomock_b)
+dist.shared(shared=combined_pn.final.0.03.pick.shared, calc=thetayc-jclass-jest, subsample=F, iters=1000)
+pcoa(phylip=combined_pn.final.0.03.pick.thetayc.0.03.lt.dist)
+corr.axes(axes=combined_pn.final.0.03.pick.thetayc.0.03.lt.pcoa.axes, shared=combined_pn.final.0.03.pick.0.03.filter.shared, method=spearman, numaxes=3)
+nmds(phylip=combined_pn.final.0.03.pick.thetayc.0.03.lt.dist, mindim=3, maxdim=3)
+summary.shared(shared=combined_pn.final.0.03.pick.shared, calc=sharedsobs-braycurtis-spearman-thetayc-jsd-sharednseqs)
+summary.single(shared=combined_pn.final.0.03.pick.shared, calc=simpsoneven-simpson-invsimpson-shannon-npshannon-sobs-chao-nseqs)
+summary.single(shared=combined_pn.final.shared, calc=simpsoneven-simpson-invsimpson-shannon-npshannon-sobs-chao-nseqs)
+system(mv *.rabund single_files)
+filter.shared(shared=combined_pn.final.0.03.pick.shared, minpercentsamples=5, makerare=T, minpercent=0.0001) 
+corr.axes(axes=combined_pn.final.0.03.pick.thetayc.0.03.lt.pcoa.axes, shared=combined_pn.final.0.03.pick.0.03.filter.shared, method=spearman, numaxes=3)
+
+
+#subsampling (will drop controls):
+#remove.groups(shared=combined_pn.final.shared, groups=ZmockA_022417-BlankB_H09-BlankB_H08)
+#sub.sample(shared=combined_pn.final.0.03.pick.shared, size=12210)
+#filter.shared(shared=, minpercentsamples=5, makerare=F, minpercent=0.0001)
+#dist.shared(shared=combined_pn.final.0.03.pick.0.03.subsample.shared, calc=thetayc-jclass-jest)
+#pcoa(phylip=combined_pn.final.0.03.pick.0.03.subsample.thetayc.0.03.lt.dist)
+#nmds(phylip=combined_pn.final.0.03.pick.0.03.subsample.thetayc.0.03.lt.dist, mindim=3, maxdim=3)
+#summary.shared(shared=combined_pn.final.0.03.pick.0.03.subsample.shared, calc=sharedsobs-braycurtis-spearman-thetayc-jsd-sharednseqs)
+#summary.single(shared=combined_pn.final.0.03.pick.0.03.subsample.shared, calc=simpsoneven-simpson-invsimpson-shannon-npshannon-sobs-chao-nseqs)
+#system(mv *.rabund single_files)
+
+

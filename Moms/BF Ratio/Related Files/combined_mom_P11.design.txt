@@ -1,0 +1,13 @@
+Sample			Group
+25M11			MetPN
+26M11			CtrlPN
+27M11			CtrlPN
+28M11			MetPN
+29M11			CtrlPN
+30M11			CtrlPN
+31M11			CtrlPN
+32M11			MetPN
+70M11			CtrlPN
+73M11			CtrlPN
+74M11			MetPN
+75M11			CtrlPN

@@ -1,0 +1,39 @@
+Dam P11			Pup P19			Pup 8wk															
+OTU	Group 	LDA	OTU	Group	LDA	OTU 	Group	LDA													
+Otu0002	MetPN	4.71734	Otu0001	CtrlPN	4.41009	Otu0012	CtrlPN	3.05384													
+Otu0010	CtrlPN	4.51864	Otu0002	CtrlPN	4.72722	Otu0013	CtrlPN	3.66079													
+Otu0037	MetPN	4.21423	Otu0006	MetPN	4.75327	Otu0018	MetPN	4.365							P11	P19	8WK	Genus	BLAST 	Notes	RDP
+Otu0038	MetPN	4.10319	Otu0009	CtrlPN	4.64901	Otu0019	CtrlPN	3.89709						Otu0010	Mom Ctrl	Pup Ctrl	x	Turicibacter	Turicibacter sanguinis	"98.02%, four hits above it are 100% but are a nonspecific species. "	similar results
+Otu0201	MetPN	2.82929	Otu0010	CtrlPN	4.06294	Otu0025	MetPN	3.92003						Otu0038	Mom Met	Pup Met	Pup Met	Helicobacter	Helicobacter typhlonius	"Highest hit, others with >97% but this is the only one with 100% match.  other one is helicobacter apri (98%)"	only one with 1.00 is helicobacter typhlonius
+Otu0185	MetPN	2.54707	Otu0011	CtrlPN	3.53792	Otu0036	MetPN	3.26192						Otu0037	Mom Met	x	Pup Met	Lactobacillus	Lactobacillus reuteri 	"NC - lots of lactobacillus oris, lactobacillus frumenti as well"	"Lactobacillus reuteri is most common, but others are present.  NC"
+Otu0101	MetPN	2.47501	Otu0013	CtrlPN	3.8566	Otu0037	MetPN	3.11752													
+Otu0181	MetPN	2.34847	Otu0016	MetPN	4.23356	Otu0038	MetPN	4.07053													
+Otu0460	MetPN	2.26284	Otu0017	CtrlPN	3.94967	Otu0046	CtrlPN	3.31408													
+Otu0325	MetPN	2.24452	Otu0018	MetPN	4.29406	Otu0053	MetPN	3.8862													
+Otu0368	MetPN	2.01561	Otu0021	MetPN	4.57441	Otu0062	MetPN	3.47056													
+			Otu0024	MetPN	4.59683	Otu0069	MetPN	3.37422													
+			Otu0027	MetPN	4.10553	Otu0085	MetPN	3.73494													
+			Otu0030	CtrlPN	4.30183	Otu0096	MetPN	3.11836													
+			Otu0034	MetPN	3.90384	Otu0107	MetPN	3.56629													
+			Otu0036	MetPN	4.02713	Otu0137	MetPN	3.05027													
+			Otu0038	MetPN	3.55655	Otu0140	MetPN	3.02569													
+			Otu0039	MetPN	4.27756	Otu0159	MetPN	3.17799													
+			Otu0041	CtrlPN	3.19978	Otu0174	MetPN	3.04636													
+			Otu0047	CtrlPN	3.62171																
+			Otu0048	MetPN	4.22507																
+			Otu0050	MetPN	4.09755																
+			Otu0053	MetPN	3.53384																
+			Otu0062	MetPN	3.71622																
+			Otu0069	MetPN	3.69729																
+			Otu0074	MetPN	3.78875																
+			Otu0077	MetPN	3.90803																
+			Otu0083	MetPN	3.46818																
+			Otu0084	CtrlPN	3.38776																
+			Otu0089	MetPN	3.69387																
+			Otu0100	MetPN	3.4994																
+			Otu0102	MetPN	3.3392																
+			Otu0137	MetPN	3.29063																
+			Otu0151	MetPN	3.37868																
+			Otu0152	MetPN	3.43902																
+			Otu0157	MetPN	3.07898																
+			Otu0172	MetPN	3.20635																

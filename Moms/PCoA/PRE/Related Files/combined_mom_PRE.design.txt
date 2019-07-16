@@ -1,0 +1,12 @@
+Sample			Group
+25MPre			MetPN
+26MPre			CtrlPN
+27MPre			CtrlPN
+28MPre			MetPN
+29MPre			CtrlPN
+30MPre			CtrlPN
+31MPre			CtrlPN
+32MPre			MetPN
+70MPre			CtrlPN
+73MPre			CtrlPN
+74MPre			MetPN
